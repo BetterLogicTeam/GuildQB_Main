@@ -134,7 +134,7 @@ const Home = () => {
                 <div className="col-md-6">
                   <Button
                     href="https://discord.com/invite/BNjFBTgpMt"
-                    className=" opensea w-100"
+                    className=" opensea new_herheq w-100"
                   >
                     <BsDiscord className="discord" />
                     <span className="text-white fw-bold ">Discord</span>
@@ -415,8 +415,9 @@ const Home = () => {
         <Container fluid className="boxshade">
           <Row>
             <Col
-              style={{ marginTop: "12%", paddingLeft: "50px" }}
-              className="left"
+
+             
+              className="left rtical_col"
               xs={12}
               md={6}
             >

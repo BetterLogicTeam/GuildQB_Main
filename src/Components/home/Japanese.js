@@ -232,7 +232,7 @@ const Japanese = () => {
                   <div className="col-md-6">
                     <Button
                       href="https://discord.com/invite/BNjFBTgpMt"
-                      className=" opensea w-100"
+                      className=" opensea  new_herheq w-100"
                     >
                       <BsDiscord className="discord" />
                       <span className="text-white fw-bold ">Discord</span>

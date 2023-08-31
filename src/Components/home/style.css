@@ -1311,6 +1311,8 @@ h1,h2,h3,h4,h5,h6,p,span{
 @media screen and (max-width: 768px) {
   .opensea {
     margin-left: 0;
+    
+    padding: 14px ;
     width: 100%; /* Reset the margin for mobile devices */
   }
 }
@@ -1552,7 +1554,7 @@ h1,h2,h3,h4,h5,h6,p,span{
   font-family: myFirstFont;
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 18px;
   font-family: 'Murecho', sans-serif !important;
 
 
@@ -1973,9 +1975,9 @@ filter: blur(120px) !important;
   .blueshade {
     padding-top: 1% !important;
   }
-  .main_heading{
+  /* .main_heading{
     font-size: 32px !important;
-  }
+  } */
 }
 
 
@@ -2222,4 +2224,66 @@ left: 5rem !important;
   font-size: 48px !important;
   font-family: 'Murecho', sans-serif !important;
 
+}
+.rtical_col{
+  margin-top: 12% !important;
+  padding-left: 50px !important;
+}
+
+
+
+@media only screen and (max-width:360px){
+  .main_heading{
+    font-size: 32px !important;
+  }
+
+  .kisar{
+    font-size: 28px !important;
+    text-align: left !important;
+  }
+
+  .rtical_col{
+    padding-left: 18px !important;
+  }
+}
+
+
+
+
+
+
+@media  screen and (min-width:361px) and (max-width:400px){
+  .main_heading{
+    font-size: 34px !important;
+  }
+
+
+
+  .kisar {
+    font-size: 35px !important;
+    text-align: left;
+  }
+  .rtical_col{
+    padding-left: 30px !important;
+  }
+}
+@media  screen and (min-width:401px) and (max-width:474px){
+  .main_heading{
+    font-size: 36px !important;
+  }
+
+  .kisar {
+    font-size: 40px !important;
+    text-align: left !important;
+  }
+  .rtical_col{
+    padding-left: 30px !important;
+  }
+}
+
+
+@media only screen and (max-width:600px){
+  .new_herheq{
+    margin-top: 10px !important;
+  }
 }
