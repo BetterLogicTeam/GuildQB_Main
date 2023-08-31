@@ -1,0 +1,325 @@
+/* #header {
+    overflow: hidden;
+} */
+
+
+.navbar {
+    position: initial;
+    padding: -1px 0;
+    background: rgba(18, 7, 49, 0.47);
+    backdrop-filter: blur(10px);
+    border-radius: 0px 0px 40px 40px;
+    margin-top: 0px;
+    border-bottom: 1px solid;
+    /* border:none !important; */
+
+    /* margin-bottom: 80px; */
+    border-image: linear-gradient(93.09deg, #8217F4 25.84%, #00D1FF 116.48%)1 !important;
+    /* border-color: #8217F4; */
+
+
+
+
+}
+.navright{
+    margin-right: 5rem !important;
+}
+.walletbtnmob {
+    background: linear-gradient(93.09deg, #8217F4 25.84%, #00D1FF 116.48%);
+    border-radius: 32px;
+    border: 0px solid;
+    color: rgb(255, 255, 255);
+    margin-top: 11px;
+    align-items: center;
+    width: 100%;
+    margin-right: 7px;
+    margin-top: 15px !important;
+    position: relative !important;
+    font-size: 14px;
+    padding: 10px 0px;
+    /* margin-right: auto; */
+    /* margin-left: 20px; */
+    letter-spacing: 0.05em;
+}
+
+.navbar-brand {}
+
+.navbar a {
+    text-decoration: none;
+}
+
+h2.logo {
+    font-size: 28px;
+    font-weight: 400;
+    color: #fff;
+}
+
+h2.logo strong {
+    font-size: 35px;
+    color: #157ee5;
+    font-weight: 600;
+}
+
+h2.center-logo {
+    margin: 0 25px;
+}
+
+#navbarSupportedContent {
+    justify-content: center;
+}
+
+ul.navbar-nav {}
+
+.nab {
+    /* margin-right: 180px; */
+    margin-left: auto;
+    display: flex !important;
+    justify-content: center !important;
+}
+
+@media (max-width: 767px) {
+    .nab {
+        margin-right: 0;
+        margin-left: auto;
+    }
+    .navright{
+        margin-right: 0rem !important;
+    }
+}
+
+ul.navbar-nav li.nav-item {
+    margin-right: 2px;
+}
+
+ul.navbar-nav li.nav-item:last-child {
+    margin-right: 0;
+}
+
+ul.navbar-nav li.nav-item a.nav-link {
+    color: #fff;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: #157ee5;
+}
+
+ul.navbar-nav li.nav-item a.nav-link:hover {
+    color: #157ee5;
+}
+
+
+
+
+button {
+    display: flex;
+    align-items: center;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 17px;
+    padding: 0.8em 1.3em 0.8em 0.9em;
+    color: white;
+    background: linear-gradient(93.09deg, #8217F4 25.84%, #00D1FF 116.48%);
+    border-radius: 32px;
+    border: none;
+    letter-spacing: 0.05em;
+
+}
+
+button svg {
+    margin-right: 3px;
+    transform: rotate(30deg);
+    transition: transform 0.5s cubic-bezier(0.76, 0, 0.24, 1);
+}
+
+button span {
+    transition: transform 0.5s cubic-bezier(0.76, 0, 0.24, 1);
+}
+
+button:hover svg {
+    transform: translateX(5px) rotate(90deg);
+}
+
+button:hover span {
+    transform: translateX(7px);
+}
+
+.dpdown {
+
+    border: 1px solid;
+    background: #130732;
+    border-radius: 32px;
+
+    color: white;
+    margin-top: 5px;
+    align-items: center;
+    font-family: inherit;
+    width: 100%;
+    font-weight: bolder;
+    font-size: 17px;
+    padding: 5px 15px 5px 15px;
+    letter-spacing: 0.05em;
+}
+
+.dpdown:hover {
+    border: 1px solid;
+    background: #130732;
+    border-radius: 32px;
+
+    color: white;
+    margin-top: 5px;
+    align-items: center;
+    font-family: inherit;
+    width: 100%;
+    font-weight: bolder;
+    font-size: 17px;
+    padding: 5px 15px 5px 15px;
+    letter-spacing: 0.05em;
+}
+
+.walletbtn {
+    background: linear-gradient(93.09deg, #8217F4 25.84%, #00D1FF 116.48%);
+    border-radius: 32px;
+    border: 0px solid;
+    color: rgb(0, 0, 0);
+    margin-top: 5px;
+    align-items: center;
+    width: 100%;
+
+
+    font-size: 14px;
+    padding: 8px 30px 8px 30px;
+    letter-spacing: 0.05em;
+}
+
+.walletbtn:hover {
+    background: linear-gradient(93.09deg, #8217F4 25.84%, #00D1FF 116.48%);
+    border-radius: 32px;
+    border: 0px solid;
+    color: rgb(0, 0, 0);
+    margin-top: 5px;
+    align-items: center;
+    width: 100%;
+
+
+    font-size: 14px;
+    padding: 8px 30px 8px 30px;
+    letter-spacing: 0.05em;
+}
+
+.gameplay {
+
+    background-image:
+        linear-gradient(to bottom, rgba(2, 13, 40, 0) 0%, #020D28),
+        linear-gradient(to top, rgba(2, 13, 40, 0) 0%, #020D28),
+        url('https://img.freepik.com/free-photo/liquid-purple-art-painting-abstract-colorful-background-with-color-splash-paints-modern-art_1258-103545.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: fit-content;
+    width: 100%;
+}
+
+.dropdownbtn {
+    inset: auto auto 750px auto;
+    transform: translate(0px, 51px);
+    width: 100%;
+    background: #020D28;
+    border: 1px solid #FFFFFF;
+    border-radius: 12px;
+}
+
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: 0.25rem 1.5rem;
+    clear: both;
+    font-weight: 700;
+    font-family: myFirstFont;
+    color: #ffffff;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+}
+
+.dropdown-item:focus,
+.dropdown-item:hover {
+    color: #157ee5;
+    text-decoration: none;
+    background-color: #f8f9fa00;
+}
+
+
+
+.stiiksy {
+    position: sticky !important;
+    top: 0px !important;
+    z-index: 10 !important;
+}
+
+
+
+@media only screen and (max-width:400px) {
+    /* .asjadkandk{
+        width: 190% !important;
+    } */
+
+    .positio {
+        position: relative !important;
+        left: 116px !important;
+    }
+
+    .myyyyy {
+        padding: 10px !important;
+    }
+}
+
+
+@media only screen and (min-width:401px) and (max-width:600px) {
+
+    .myyyyy {
+        padding: 10px !important;
+        
+    }
+
+    .positio {
+        position: relative !important;
+        left: 152px !important;
+        top: -4px !important;
+    }
+}
+
+
+
+.navbar_toggle {
+    position: relative !important;
+    top: -2px !important;
+}
+
+
+@media only screen and (min-width:700px) and (max-width:800px) {
+    .positio {
+        position: relative !important;
+        left: 31rem;
+    }
+
+    .walletbtnmob {
+        padding: 10px 10px;
+    }
+
+    .nab {
+        margin-right: 0px;
+        margin-left: auto;
+    }
+
+    .dropdown,
+    .dropend,
+    .dropstart,
+    .dropup {
+        position: relative;
+        left: 20px !important;
+    }
+}

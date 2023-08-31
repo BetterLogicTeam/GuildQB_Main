@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Murecho&display=swap');
+
+
+.hex4 {
+  background-color: #130732 !important;
+  width: 100%;
+  -webkit-clip-path: polygon(
+    50% 0%,
+    95% 25%,
+    95% 75%,
+    50% 100%,
+    5% 75%,
+    5% 25%
+  );
+  
+  clip-path: polygon(50% 0%, 95% 25%, 95% 75%, 50% 100%, 5% 75%, 5% 25%);
+}
+
+.hex_upper {
+  background: linear-gradient(93.09deg, #8217f4 25.84%, #00d1ff 116.48%);
+  clip-path: polygon(50% 0%, 95% 25%, 95% 75%, 50% 100%, 5% 75%, 5% 25%);
+  width: 100%;
+  padding: 2px;
+  margin-left: -15rem !important;
+}
+
+.crosole_pic {
+  width: 100%;
+}
+
+.second_swpr {
+  /* margin: -25px 0px 0rem 0px !important; */
+  padding-left: 15rem ;
+}
+
+.third_swpr {
+  margin-top: -45px !important;
+}
+
+.blueshadeg {
+  background-image: url(../../Assets/bg.png);
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-size: cover !important;
+  height: fit-content !important;
+  width: 100% !important;
+  overflow: hidden !important;
+  margin-top: 4rem;
+  padding: 0px 0px 40px 0px;
+}
+
+.crd_picss {
+  padding: 10px 10px 0px 10px;
+}
+
+.crd {
+  box-sizing: border-box;
+  text-align: left;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 18rem;
+  height: 350px;
+
+  background: rgba(0, 0, 0, 0.06);
+  backdrop-filter: blur(10px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 40px;
+
+  border: 1px solid;
+
+  border-color: #249cfc;
+}
+
+.Slider_img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.endd_uperr{
+  background: linear-gradient(93.09deg, #8217f4 25.84%, #00d1ff 116.48%);
+}
+
+
+
+@media  screen and (max-width: 600px) {
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+      "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+      "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #140113;
+    color: white;
+    overflow-x: hidden !important;
+  }
+
+  .crosole_pic {
+    width: 100%;
+  }
+
+  .second_swpr {
+    /* margin: -25px 0px 0rem 0px !important; */
+    padding-left: 8.5rem !important;
+  }
+  .third_swpr {
+    margin-top: -27px !important;
+  }
+
+  .blueshadeg {
+    overflow: hidden !important;
+  }
+  .Slider_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+  }
+
+  .news_bbtn {
+    width: 90% !important;
+    padding: 15px 0px !important;
+  }
+
+  .news_title{
+  font-size: 50px !important;
+}
+
+.crd {
+  box-sizing: border-box;
+  text-align: left;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 22rem;
+  height: 376px;
+  background: rgba(0, 0, 0, 0.06);
+  backdrop-filter: blur(10px);
+  /* Note: backdrop-filter has minimal browser support */
+  border-radius: 40px;
+  border: 1px solid;
+  border-color: #249cfc;
+}
+}
+
+@media only screen and (min-width:605px) and (max-width:768px) {
+  .second_swpr {
+    padding-left: 0rem !important;
+  }
+
+  .Slider_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 55px;
+    padding-bottom: 55px;
+  }
+
+  .news_bbtn {
+    width: 40% !important;
+    padding: 15px 0px !important;
+  }
+}
+
+@media only screen and (min-width:1400px) and (max-width:1599px)  {
+  .Slider_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 105px;
+    padding-bottom: 105px;
+  }
+}
+
+
+
+@media only screen and (min-width:1600px)  {
+  .Slider_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 180px;
+    padding-bottom: 180px;
+  }
+}
+
+
