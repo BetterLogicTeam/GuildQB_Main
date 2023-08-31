@@ -107,7 +107,7 @@ const Home = () => {
             <div className="col-md-6  ">
               <div>
                 {" "}
-                <h1 className="margin text-start main_heading">
+                <h1 className="margin text-start  new_main_heading_here main_heading">
                   Blockchain Gaming <br />
                   Guild QB [Quest & Battle]
                 </h1>

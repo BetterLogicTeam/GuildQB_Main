@@ -206,7 +206,7 @@ const Japanese = () => {
               <div className="col-md-6  ">
                 <div>
                   {" "}
-                  <h1 className="margin text-start main_heading">
+                  <h1 className="margin new_main_heading_here text-start main_heading">
                     Blockchain Gaming Guild QB [Quest & Battle]
                   </h1>
                   <h5 className="headingplay text-start">
