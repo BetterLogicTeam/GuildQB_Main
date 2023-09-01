@@ -186,14 +186,11 @@ const Header = () => {
                     </button>
                   </div>
                 </Col>
-
               </Row>
-
-
             </div>
 
 
-            <div className="collapse navbar-collapse hdr" id="navbarSupportedContent">
+            <div className="collapse navbar-collapse" id="navbarSupportedContent">
               <Link className="home_link" to="/">
                 <img className="desktoplogo" variant="top" src={Icons} /> </Link>
 
@@ -238,7 +235,7 @@ const Header = () => {
                 <li className="nav-item ">
                   <Dropdown >
 
-                    <Dropdown.Toggle className='dpdown' style={{ fontWeight: '200', position: 'inherit ' }} variant="Warning" id="dropdown-basic">
+                    <Dropdown.Toggle className='dpdown mb-0' style={{ fontWeight: '200', position: 'inherit ' }} variant="Warning" id="dropdown-basic">
                       {language}
                     </Dropdown.Toggle>
                     <Dropdown.Menu className="dropdownbtn"  >
@@ -248,8 +245,8 @@ const Header = () => {
                   </Dropdown>
 
                 </li>
-                <li style={{ marginLeft: '2px' }} onClick={clickAccount} className="nav-item">
-                  <Button className='walletbtn'  onClick={() => open()} ><i className="fas fa-wallet" style={{ color: 'white' }}><span style={{ fontFamily: 'myFirstFont', fontStyle: 'initial', fontWeight: '200', color: 'white' }}>&nbsp;&nbsp; 
+                <li onClick={clickAccount} className="nav-item">
+                  <Button className='walletbtn mb-0'  onClick={() => open()} ><i className="fas fa-wallet" style={{ color: 'white' }}><span style={{ fontFamily: 'myFirstFont', fontStyle: 'initial', fontWeight: '200', color: 'white' }}>&nbsp;&nbsp; 
                   {address ? address.substring(0, 8)+"..."+address.substring(
                             address.length - 8
                           ) :"CONNECT WALLET"} </span></i></Button>
