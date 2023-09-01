@@ -334,3 +334,27 @@ button:hover span {
         left: 20px !important;
     }
 }
+
+@media (min-width:801px) and (max-width:991px) {
+    .rUpperas{
+        width: 100% !important;
+    }
+    .asjadkandk{
+        display: flex !important;
+        justify-content: space-between !important;
+    }
+
+    .walletbtnmob {
+        width: 30% !important;
+        padding: 10px 24px !important;
+    }
+
+    .pito{
+        display: flex;
+        justify-content: right !important;
+    }
+    .pito2{
+        display: flex;
+        justify-content: left !important;
+    }
+}

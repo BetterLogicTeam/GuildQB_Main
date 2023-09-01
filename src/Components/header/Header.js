@@ -131,11 +131,11 @@ const Header = () => {
 
         <div className="container-fluid stiiksy">
           <nav className="navbar navbar-expand-lg" >
-            <div className="d-block d-lg-none" href="#">
+            <div className="d-block d-lg-none rUpperas" href="#">
 
 
               <Row className="d-flex asjadkandk justify-conetent-between">
-                <Col xs={3}>
+                <Col xs={3} className="pito2">
                   <div className="logo">
 
                     <Link to={'/blogpage'}>
@@ -148,7 +148,7 @@ const Header = () => {
 
 
                 <Col xs={7} className=" text-start" style={{ paddingLeft: '17px' }}>
-                  <div className="d-flex positio justify-content-center align-items-center">
+                  <div className="d-flex positio justify-content-center align-items-center pito">
                     {/* <button  className='walletbtnmob'> <i className="fas fa-wallet"></i> </button> */}
 
                     <Button className='walletbtnmob myyyyy d-flex' onClick={() => open()}>

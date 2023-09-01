@@ -2310,7 +2310,8 @@ left: 5rem !important;
 
 @media (min-width: 767px) and (max-width: 948px) {
   .main_heading {
-    font-size: 40px !important;
+    font-size: 31px !important;
+    font-weight: 900 !important;
   }
 
   .navright {

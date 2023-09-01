@@ -103,7 +103,7 @@ const Home = () => {
      
 
         <div className="container-fluid main_bg mt-5">
-          <div className="row justify-content-center align-items-center ">
+          <div className="row justify-content-center align-items-center lapscrn">
             <div className="col-md-6  ">
               <div>
                 {" "}
