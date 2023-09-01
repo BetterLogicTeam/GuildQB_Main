@@ -358,3 +358,8 @@ button:hover span {
         justify-content: left !important;
     }
 }
+
+.hdr{
+    display: flex !important;
+    align-items: center !important;
+}

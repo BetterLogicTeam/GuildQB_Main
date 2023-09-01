@@ -193,7 +193,7 @@ const Header = () => {
             </div>
 
 
-            <div className="collapse navbar-collapse" id="navbarSupportedContent">
+            <div className="collapse navbar-collapse hdr" id="navbarSupportedContent">
               <Link className="home_link" to="/">
                 <img className="desktoplogo" variant="top" src={Icons} /> </Link>
 
