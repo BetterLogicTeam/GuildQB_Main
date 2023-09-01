@@ -270,6 +270,14 @@ button:hover span {
     .walletbtnmob {
         padding: 10px 10px;
     }
+
+    .dpdown{
+        margin: 15px 0px !important;
+    }
+
+    .walletbtn{
+        margin-bottom: 7px !important;
+    }
 }
 
 
@@ -286,6 +294,15 @@ button:hover span {
     .myyyyy {
         padding: 10px !important;
     }
+
+    .dpdown{
+        margin: 15px 0px !important;
+    }
+
+    .walletbtn{
+        margin-bottom: 7px !important;
+    }
+
 }
 
 
@@ -300,6 +317,14 @@ button:hover span {
         position: relative !important;
         left: 152px !important;
         top: -4px !important;
+    }
+
+    .dpdown{
+        margin: 15px 0px !important;
+    }
+
+    .walletbtn{
+        margin-bottom: 7px !important;
     }
 }
 
@@ -333,6 +358,15 @@ button:hover span {
         position: relative;
         left: 20px !important;
     }
+
+    .dpdown{
+        margin: 15px 0px !important;
+    }
+
+    .walletbtn{
+        margin-bottom: 7px !important;
+    }
+
 }
 
 @media (min-width:801px) and (max-width:991px) {
@@ -356,5 +390,13 @@ button:hover span {
     .pito2{
         display: flex;
         justify-content: left !important;
+    }
+
+    .dpdown{
+        margin: 15px 0px !important;
+    }
+
+    .walletbtn{
+        margin-bottom: 7px !important;
     }
 }
